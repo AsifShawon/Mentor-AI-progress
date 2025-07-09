@@ -30,7 +30,7 @@ export default function AboutPage() {
                 <CardTitle className="text-3xl font-bold">Our Vision</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-xl text-muted-foreground leading-relaxed">
+                <p className="text-xl text-muted-foreground leading-relaxed" data-cursor="text">
                   To democratize personalized education through advanced AI technology, making quality learning 
                   accessible to every student regardless of their location, economic background, or learning style. 
                   We envision a world where every learner has access to a patient, knowledgeable, and adaptive 
@@ -146,7 +146,7 @@ export default function AboutPage() {
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
-                      <p className="text-muted-foreground">One-size-fits-all teaching approaches that don't adapt to individual learning styles</p>
+                      <p className="text-muted-foreground">One-size-fits-all teaching approaches that don&apos;t adapt to individual learning styles</p>
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
