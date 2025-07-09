@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Brain, Sparkles, Target, Code, CalendarDays, Rocket, ArrowRight, Github, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
+import CursorAnimation from '@/components/CursorAnimation';
 
 export default function Home() {
   return (
@@ -248,6 +249,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* <CursorAnimation /> */}
     </PageLayout>
   );
 }
